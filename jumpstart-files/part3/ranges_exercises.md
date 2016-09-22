@@ -82,8 +82,6 @@
   #FOUR
   def to_range(array)
       array.sort!
-      #first = array[1]
-      #last = array[-1]
       range = (array[0]..array[-1])
   end
   
